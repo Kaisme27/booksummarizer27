@@ -21,11 +21,11 @@ interface Book {
 // and read it at build time or on each request in a server component
 
 // Mock 数据，后续可替换为真实 books.json 数据
-const mockBooks = [
-  { id: 1, title: 'Atomic Habits' },
-  { id: 2, title: 'Sapiens' },
-  { id: 3, title: 'The Lean Startup' },
-];
+// const mockBooks = [
+//   { id: 1, title: 'Atomic Habits' },
+//   { id: 2, title: 'Sapiens' },
+//   { id: 3, title: 'The Lean Startup' },
+// ];
 
 export default function Home() {
   return (
