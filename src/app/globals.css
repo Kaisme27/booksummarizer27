@@ -1,0 +1,31 @@
+    /* src/app/globals.css */
+
+    @tailwind base;
+    @tailwind components;
+    @tailwind utilities;
+
+    /* Next.js 默认的全局样式（你也可以保留或按需修改） */
+    :root {
+      --background: #ffffff;
+      --foreground: #171717;
+    }
+
+    @theme inline { /* 这一段可能是你之前Next.js项目自动生成的，可以保留 */
+      --color-background: var(--background);
+      --color-foreground: var(--foreground);
+      --font-sans: var(--font-geist-sans);
+      --font-mono: var(--font-geist-mono);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #0a0a0a; /* 调整为深色模式下的背景色 */
+        --foreground: #ededed; /* 调整为深色模式下的前景色 */
+      }
+    }
+
+    body {
+      background: var(--background);
+      color: var(--foreground);
+      font-family: Arial, Helvetica, sans-serif; /* 简单的字体设置 */
+    }
