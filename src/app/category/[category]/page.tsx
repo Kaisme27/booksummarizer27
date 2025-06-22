@@ -2,6 +2,7 @@
 import { useParams } from 'next/navigation';
 import booksData from '../../../data/books.json';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface Book {
   id: number;
@@ -32,7 +33,7 @@ export default function CategoryPage() {
           {books.map(book => (
             <div key={book.id} className="bg-white border border-gray-200 rounded-xl shadow flex flex-col">
               <div className="h-64 flex items-center justify-center bg-gray-100 rounded-t-xl">
-                <img src={book.image} alt={book.title} className="max-h-full max-w-full object-contain p-2" />
+                <Image src={book.image} alt={book.title} width={200} height={256} className="max-h-full max-w-full object-contain p-2" />
               </div>
               <div className="p-4 flex flex-col flex-grow">
                 <h3 className="text-lg font-bold text-gray-900 mb-1 leading-tight">{book.title}</h3>
