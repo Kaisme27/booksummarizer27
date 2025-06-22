@@ -1,7 +1,7 @@
 // src/app/book/[id]/page.tsx
 'use client';
-import { useParams, useRouter } from 'next/navigation';
-import React, { useState, useRef } from 'react';
+import { useParams } from 'next/navigation';
+import React, { useState } from 'react';
 import booksData from '../../../data/books.json';
 
 interface Book {
@@ -16,12 +16,10 @@ interface Book {
 
 export default function BookDetail() {
   const params = useParams();
-  const router = useRouter();
   const id = Number(params.id);
   const book = (booksData as Book[]).find(b => b.id === id);
-  const [loading, setLoading] = useState(false);
-  const [progress, setProgress] = useState(0);
-  const progressRef = useRef<NodeJS.Timeout | null>(null);
+  const [loading] = useState(false);
+  const [progress] = useState(0);
   const [showSummary, setShowSummary] = useState(true);
   const [isFavorite, setIsFavorite] = useState(false);
 
@@ -30,7 +28,7 @@ export default function BookDetail() {
     // Check for favorites in localStorage only on client side
     const favs = JSON.parse(localStorage.getItem('favorites') || '[]');
     setIsFavorite(favs.includes(book.id));
-  }, [book?.id]);
+  }, [book]);
 
   const handleAddFavorite = () => {
     if (!book) return;
