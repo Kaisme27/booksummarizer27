@@ -1,52 +1,152 @@
 [
   {
-    "id": 1,
-    "title": "Upstream: The Quest to Solve Problems Before They Happen",
-    "author": "Dan Heath",
-    "image": "/book-covers/book1.jpg",
-    "date": "2020",
-    "tags": ["🧠", "💡", "Management", "Thinking"],
+    "id": 6,
+    "title": "The Power of the Other",
+    "author": "Dr. Henry Cloud",
+    "image": "/book-covers/book6.jpg",
+    "date": "2016",
+    "tags": [
+      "🧠",
+      "💡",
+      "Psychology",
+      "Relationships"
+    ],
     "category": "Self-Help & Personal Development",
-    "summary": "Key Takeaways:\n\n1. Upstream Thinking: Instead of reacting to problems after they occur, focus on preventing them before they happen.\n\n2. Break the Firefighting Cycle: Many organizations are stuck in a loop of constantly solving immediate issues. The book encourages a shift to proactive, system-level solutions.\n\n3. Systems Analysis: Identify root causes and systemic weaknesses through data, process review, and cross-functional collaboration.\n\n4. Overcoming Responsibility Gaps: Upstream interventions often fail because no one feels responsible. The author suggests clarifying ownership and fostering collaboration.\n\n5. Measurement and Feedback: Effective prevention requires ongoing measurement and feedback to adapt strategies.\n\n6. Real-World Cases: The book uses examples from education, healthcare, and business to show how upstream thinking can create lasting change.\n\nSummary: 'Upstream' by Dan Heath explores how individuals and organizations can solve problems before they arise by shifting from reactive to proactive thinking. Through practical frameworks and real-world stories, the book demonstrates the power of prevention and systems thinking in achieving better, long-term outcomes."
+    "summary": "Key Takeaways:\n\n1. The quality of our connections with others fundamentally shapes our brain chemistry, emotional regulation, and overall well-being.\n\n2. There are four types of connections: no connection (isolation), bad connection (toxic relationships), pseudo-good connection (superficial), and true connection (authentic and supportive).\n\n3. Our brains are wired for connection - when we experience genuine connection, our prefrontal cortex functions better, enabling clearer thinking and better decision-making.\n\n4. The 'other' in our lives can either be a source of strength and growth or a source of stress and limitation, depending on the quality of the relationship.\n\n5. Building authentic connections requires vulnerability, mutual trust, and the ability to both give and receive support.\n\nBook Summary:\nThe Power of the Other explores how our relationships and connections with others fundamentally influence our brain function, emotional well-being, and success. Dr. Henry Cloud combines neuroscience research with practical insights to show how the quality of our connections can either enhance or hinder our cognitive abilities, stress management, and overall life performance. The book provides a framework for understanding different types of relationships and offers guidance on building the kind of connections that truly support growth and well-being."
   },
   {
-    "id": 2,
-    "title": "Rich Habits: The Routines Millionaires Use Daily That Will Help You Build Wealth",
-    "author": "Thomas C. Corley",
-    "image": "/book-covers/book2.jpg",
-    "date": "January 14, 2025",
-    "tags": ["💰", "习惯", "财富", "自我提升"],
+    "id": 7,
+    "title": "The Fifth Discipline",
+    "author": "Peter M. Senge",
+    "image": "/book-covers/book7.jpg",
+    "date": "1990",
+    "tags": [
+      "🏢",
+      "💡",
+      "Management",
+      "Systems"
+    ],
     "category": "Business & Money",
-    "summary": "Key Takeaways:\n\n1. Wealthy individuals develop daily success habits that set them apart from others, such as disciplined saving, continuous learning, and networking.\n\n2. The book identifies four paths to wealth and explains the difference between rich and poor habits, emphasizing the importance of mindset and daily routines.\n\n3. Habit formation is a science—understanding how the brain works can help you build better routines and sustain positive change.\n\n4. Self-awareness and goal setting are crucial for long-term prosperity, helping you make decisions that align with your financial goals.\n\n5. Actionable steps and mindset shifts can help anyone transform their financial future, regardless of their starting point.\n\nBook Summary:\nRich Habits, based on years of research by Thomas C. Corley, reveals the practical routines and mindset shifts that millionaires use daily. The book provides a roadmap for building wealth by changing your habits, focusing on self-improvement, and making conscious decisions that align with long-term success."
+    "summary": "Key Takeaways:\n\n1. Learning organizations are those that can continuously adapt and transform themselves through collective learning and shared vision.\n\n2. The five disciplines of learning organizations are: personal mastery, mental models, shared vision, team learning, and systems thinking.\n\n3. Systems thinking is the cornerstone discipline that integrates all others, helping us see the interconnected nature of problems and solutions.\n\n4. Mental models - our deeply held assumptions and generalizations - often limit our ability to see new possibilities and create change.\n\n5. True learning requires moving beyond individual learning to collective learning that transforms the organization's capacity to create its future.\n\nBook Summary:\nThe Fifth Discipline introduces the concept of learning organizations and presents five disciplines that enable organizations to continuously learn and adapt. Peter Senge argues that the most successful organizations are those that can harness collective learning to address complex challenges. The book emphasizes systems thinking as the key discipline that helps leaders understand how different parts of an organization interact and how to create sustainable change. It provides practical tools for building shared vision, surfacing mental models, and fostering team learning."
   },
   {
-    "id": 3,
-    "title": "World Order",
-    "author": "Henry Kissinger",
-    "image": "/book-covers/book3.jpg",
-    "date": "September 29, 2015",
-    "tags": ["🌍", "历史", "国际关系", "政治"],
-    "category": "Politics & Social Sciences",
-    "summary": "Key Takeaways:\n\n1. The concept of 'world order' is shaped by the unique historical and cultural experiences of different civilizations, including the Westphalian system, Islamic world, China, and the United States.\n\n2. Stability in international relations requires a balance of power, mutual respect for sovereignty, and a shared set of rules and norms among nations.\n\n3. The book analyzes the challenges posed by rising powers, regional conflicts, and the impact of technology and globalization on global governance.\n\n4. Kissinger emphasizes the importance of diplomacy, strategic foresight, and adaptability in navigating a rapidly changing world.\n\n5. The future of world order depends on the ability of nations to cooperate, manage differences, and address common threats such as terrorism, climate change, and nuclear proliferation.\n\nBook Summary:\nWorld Order by Henry Kissinger explores the evolution of the international system, examining how different regions have developed their own visions of order and how these interact on the global stage. Drawing on history, diplomacy, and personal experience, Kissinger provides insights into the principles that underpin global stability and the ongoing quest for a peaceful and cooperative world."
-  },
-  {
-    "id": 4,
-    "title": "Jerusalem: The Biography",
-    "author": "Simon Sebag Montefiore",
-    "image": "/book-covers/book4.jpg",
+    "id": 8,
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "image": "/book-covers/book8.jpg",
     "date": "2011",
-    "tags": ["🌍", "📖", "🕍", "⏳"],
-    "category": "History",
-    "summary": "Key Takeaways:\n\n1. Jerusalem has been at the heart of world history for over three millennia, serving as a focal point for Judaism, Christianity, and Islam.\n\n2. The city's history is marked by cycles of conquest, destruction, and rebirth, reflecting the broader struggles of empires and faiths.\n\n3. Montefiore's narrative weaves together political intrigue, religious fervor, and personal stories of rulers, prophets, and ordinary citizens.\n\n4. The book highlights how Jerusalem's sacred status has made it a symbol of hope, conflict, and coexistence.\n\n5. Understanding Jerusalem's past is essential to grasping the complexities of the modern Middle East.\n\nBook Summary:\n\"Jerusalem: The Biography\" by Simon Sebag Montefiore is a sweeping chronicle of the city's 3,000-year history, from its ancient beginnings to the present day. Through vivid storytelling, Montefiore explores the city's pivotal role in religion, politics, and culture, revealing how its unique legacy has shaped—and been shaped by—the ambitions of empires, the devotion of believers, and the lives of its diverse inhabitants. The book offers a nuanced perspective on why Jerusalem remains one of the world's most contested and revered cities."
+    "tags": [
+      "🧠",
+      "🔬",
+      "Psychology",
+      "Decision Making"
+    ],
+    "category": "Science & Math",
+    "summary": "Key Takeaways:\n\n1. Our brain operates with two systems: System 1 (fast, automatic, intuitive) and System 2 (slow, deliberate, analytical).\n\n2. Cognitive biases and heuristics often lead to systematic errors in judgment and decision-making, even among experts.\n\n3. The availability heuristic, anchoring effect, and confirmation bias are among the most common and impactful cognitive biases.\n\n4. Prospect theory shows that people are more sensitive to losses than gains, and make decisions based on relative changes rather than absolute outcomes.\n\n5. Understanding these biases can help us make better decisions and design systems that account for human cognitive limitations.\n\nBook Summary:\nThinking, Fast and Slow presents Daniel Kahneman's groundbreaking research on human judgment and decision-making. The book explores how our cognitive processes often lead to predictable errors and biases, even in situations where we believe we're being rational. Kahneman introduces the dual-system model of thinking and examines various cognitive biases that affect everything from personal decisions to business and policy choices. The book provides insights into how we can improve our decision-making by understanding and working with our cognitive limitations."
   },
   {
-    "id": 5,
-    "title": "The Longevity Imperative: Building a Healthier and More Productive Society",
-    "author": "Andrew J. Scott",
-    "image": "/book-covers/book5.jpg",
-    "date": "2024",
-    "tags": ["🧬", "🏥", "🌍", "📊"],
-    "category": "Health, Fitness & Dieting",
-    "summary": "Key Takeaways:\n\n1. The world is experiencing unprecedented demographic change, with people living longer than ever before, requiring fundamental shifts in how we approach work, health, and society.\n\n2. The book challenges traditional views on aging, arguing that longer lives present opportunities for innovation and growth rather than just challenges.\n\n3. A multi-sector approach is needed to create a longevity-ready society, involving changes in healthcare, education, workplace policies, and social systems.\n\n4. Technology and innovation play crucial roles in enabling healthy aging and extending productive years.\n\n5. The economic implications of longer lives require new thinking about retirement, pensions, and intergenerational wealth transfer.\n\nBook Summary:\n\"The Longevity Imperative\" by Andrew J. Scott presents a comprehensive analysis of how longer lifespans are transforming our world. The book combines economic insights with practical solutions, showing how individuals, organizations, and governments can adapt to create a society that benefits from longer lives. Scott argues that with the right policies and mindset, increased longevity can lead to greater prosperity, innovation, and well-being for all generations."
+    "id": 9,
+    "title": "The Minimalist Entrepreneur",
+    "author": "Sahil Lavingia",
+    "image": "/book-covers/book9.jpg",
+    "date": "2021",
+    "tags": [
+      "💼",
+      "��",
+      "Entrepreneurship",
+      "Startup"
+    ],
+    "category": "Business & Money",
+    "summary": "Key Takeaways:\n\n1. Entrepreneurship doesn't require massive funding or complex operations - you can build a successful business with minimal resources and maximum focus.\n\n2. Start by solving a real problem for a specific community rather than trying to build for everyone.\n\n3. Focus on building a sustainable, profitable business rather than chasing growth at all costs.\n\n4. Leverage existing tools and platforms rather than building everything from scratch.\n\n5. Success comes from serving your community well and building genuine relationships with customers.\n\nBook Summary:\nThe Minimalist Entrepreneur challenges the conventional startup narrative of raising millions in funding and pursuing rapid growth. Sahil Lavingia shares his experience building Gumroad and argues that entrepreneurs can create successful, sustainable businesses by focusing on solving real problems for specific communities. The book emphasizes the importance of building genuine relationships with customers, leveraging existing tools and platforms, and maintaining focus on what truly matters. It provides a practical roadmap for building a business that aligns with your values and lifestyle goals."
+  },
+  {
+    "id": 10,
+    "title": "How Big Things Get Done",
+    "author": "Bent Flyvbjerg and Dan Gardner",
+    "image": "/book-covers/book10.jpg",
+    "date": "2023",
+    "tags": [
+      "🏗️",
+      "📊",
+      "Project Management",
+      "Strategy"
+    ],
+    "category": "Business & Money",
+    "summary": "Key Takeaways:\n\n1. Most large projects fail due to systematic biases in planning and execution, not technical challenges.\n\n2. The planning fallacy - our tendency to underestimate costs and time - is the primary cause of project failures.\n\n3. Successful projects require modular design, clear accountability, and realistic planning based on historical data.\n\n4. Reference class forecasting, which uses data from similar past projects, provides more accurate estimates than expert judgment.\n\n5. Breaking large projects into smaller, manageable modules reduces risk and increases the likelihood of success.\n\nBook Summary:\nHow Big Things Get Done examines why large projects so often fail and what can be done to improve their success rates. Bent Flyvbjerg and Dan Gardner analyze thousands of projects across various industries to identify the common patterns that lead to failure and success. The book provides practical strategies for better project planning and execution, emphasizing the importance of realistic estimates, modular design, and learning from historical data. It offers a framework for managing complex projects more effectively."
+  },
+  {
+    "id": 11,
+    "title": "Elon Musk",
+    "author": "Walter Isaacson",
+    "image": "/book-covers/book11.jpg",
+    "date": "2023",
+    "tags": [
+      "🚀",
+      "💡",
+      "Biography",
+      "Technology"
+    ],
+    "category": "Biographies & Memoirs",
+    "summary": "Key Takeaways:\n\n1. Musk's personality is a product of a paradoxical childhood, marked by both genius-level intellect and traumatic bullying, deeply influenced by an emotionally abusive father.\n\n2. He operates with a core 'engineer's mindset,' prioritizing first-principles thinking, hands-on involvement in manufacturing, and a systematic 'algorithm' for process optimization in his companies.\n\n3. His business empire is driven by a grand, sci-fi-inspired vision to ensure the long-term survival of human consciousness by making humanity a multi-planetary species.\n\n4. Many of Musk's seemingly impulsive decisions, like renaming Twitter to 'X', are rooted in long-held personal obsessions and patterns visible throughout his career.\n\n5. The biography presents a balanced view, questioning whether Musk's abrasive and conflict-driven nature is an unfortunate side effect or an essential component of his world-changing ambition.\n\nBook Summary:\nWalter Isaacson's 'Elon Musk' delves into the complex and often contradictory nature of the man who has revolutionized the electric vehicle, private space exploration, and artificial intelligence industries. The biography paints a portrait of a figure shaped by a difficult childhood, where prodigious talent coexisted with severe bullying and a toxic relationship with his father. This upbringing forged a relentless, crisis-driven personality. At his core, Musk is an engineer, not a businessman, who immerses himself in the minute details of manufacturing and applies a rigorous, first-principles 'algorithm' to solve problems and drive innovation at companies like Tesla and SpaceX. His ultimate ambition, heavily influenced by classic science fiction, is to safeguard the future of human consciousness by making life multi-planetary. The book explores how this grand vision connects his diverse ventures, from reusable rockets to brain-computer interfaces, presenting a comprehensive look at what drives one of the most consequential and controversial innovators of our time."
+  },
+  {
+    "id": 12,
+    "title": "Poor Charlie's Almanack",
+    "author": "Charlie Munger",
+    "image": "/book-covers/book12.jpg",
+    "date": "2005",
+    "tags": [
+      "💰",
+      "🧠",
+      "Investment",
+      "Philosophy"
+    ],
+    "category": "Business & Money",
+    "summary": "Key Takeaways:\n\n1. Munger's 'multiple mental models' approach emphasizes learning from diverse disciplines to avoid the 'man with a hammer' problem where one tool is used for every problem.\n\n2. Reverse thinking - understanding what not to do before deciding what to do - is a powerful problem-solving method that often makes complex issues easier to solve.\n\n3. Good knowledge systems should be T-shaped (deep expertise in one area with broad interdisciplinary knowledge) and Y-shaped (combining multiple disciplines in practical applications).\n\n4. Investment success comes from staying within your 'circle of competence,' focusing on understandable businesses with strong moats, and practicing true value investing.\n\n5. The core principle 'to get what you want, you must deserve what you want' applies equally to personal development and investment strategy.\n\nBook Summary:\nPoor Charlie's Almanack compiles the wisdom and investment philosophy of Charlie Munger, Warren Buffett's legendary partner at Berkshire Hathaway. The book presents Munger's 'multiple mental models' framework, which advocates building a latticework of knowledge from various disciplines including psychology, economics, mathematics, and physics to avoid narrow thinking. Munger emphasizes reverse thinking - understanding what to avoid before deciding what to pursue - as a powerful problem-solving tool. His approach to knowledge building involves creating T-shaped expertise (deep in one area, broad across many) and Y-shaped applications (combining multiple disciplines). In investing, Munger focuses on staying within one's circle of competence, investing only in understandable businesses with strong competitive moats, and practicing true value investing by assessing intrinsic worth rather than market speculation. The book's central message is that success comes from continuous self-improvement and developing the capability to deserve what you want, whether in investing, business, or life."
+  },
+  {
+    "id": 13,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert Kiyosaki",
+    "image": "/book-covers/book13.jpg",
+    "date": "2017",
+    "tags": [
+      "💰",
+      "💼",
+      "Finance",
+      "Investment"
+    ],
+    "category": "Business & Money",
+    "summary": "Key Takeaways:\n\n1. The core principle is 'Don't work for money, make money work for you' - focus on building assets that generate income rather than trading time for wages.\n\n2. Avoid becoming a 'slave to money' by letting fear and greed drive decisions; instead, work to learn new skills that increase your value and earning potential.\n\n3. Distinguish between assets (things that put money in your pocket) and liabilities (things that take money out) - focus on accumulating income-generating assets.\n\n4. Your job is not your business; your business should be your assets - treat asset building as your primary enterprise.\n\n5. Develop financial literacy in four key areas: accounting, investing, markets, and law - or hire professionals who possess this knowledge.\n\nBook Summary:\nRich Dad Poor Dad presents Robert Kiyosaki's financial education through the contrasting philosophies of his two father figures: his biological father (the 'poor dad') who was highly educated but struggled financially, and his friend's father (the 'rich dad') who built wealth through business and investing. The book's central message is to shift from working for money to making money work for you by building income-generating assets rather than accumulating liabilities. Kiyosaki emphasizes avoiding the 'rat race' of trading time for wages and instead focusing on learning valuable skills that increase earning potential. He distinguishes between true assets (investments, businesses, intellectual property) and common misconceptions like personal residences or luxury items that actually drain resources. The book advocates treating asset building as your primary business, developing financial literacy across accounting, investing, markets, and law, and respecting your knowledge boundaries by hiring professionals when needed. This classic personal finance book has sold over 30 million copies worldwide and remains foundational reading for anyone seeking financial independence."
+  },
+  {
+    "id": 14,
+    "title": "Clear Thinking",
+    "author": "Shane Parrish",
+    "image": "/book-covers/book14.jpg",
+    "date": "2023",
+    "tags": [
+      "🧠",
+      "💡",
+      "Psychology",
+      "Decision Making"
+    ],
+    "category": "Self-Help & Personal Development",
+    "summary": "Key Takeaways:\n\n1. The main barrier to clear thinking isn't lack of thinking tools, but failure to recognize when thinking is needed - most people operate on autopilot without conscious thought.\n\n2. Four default behaviors sabotage clear thinking: emotional defaults (reacting to feelings), ego defaults (protecting self-image), social defaults (following the crowd), and inertia defaults (resisting change).\n\n3. Combat automatic reactions by rewriting defaults (replacing bad habits with better ones) and building high-potential thinking positions through self-awareness, confidence, and self-accountability.\n\n4. Quality thinking requires following a systematic four-step process: define the problem, explore solutions, evaluate options, and execute the plan.\n\n5. Prevent errors through prevention (avoiding decision-making when vulnerable), creating friction (making bad habits harder), using checklists, and perspective-shifting.\n\nBook Summary:\nClear Thinking by Shane Parrish challenges the conventional approach to improving decision-making by focusing not on thinking tools, but on recognizing when to think in the first place. Parrish argues that most people fail at clear thinking not because they lack cognitive abilities, but because they operate on autopilot, letting four default behaviors control their responses: emotional reactions, ego protection, social conformity, and inertia. To combat these defaults, he advocates rewriting personal defaults through better habits and building 'high-potential thinking positions' through self-awareness, confidence, and self-accountability. The book presents a systematic four-step decision-making process and practical error-prevention strategies including creating friction against bad habits and using checklists. Parrish emphasizes that clear thinking is less about intelligence or techniques and more about becoming the type of person who maintains high standards and takes responsibility for outcomes. The book serves as a practical guide for developing the self-discipline needed to pause, think, and make better decisions in everyday situations."
+  },
+  {
+    "id": 15,
+    "title": "The Almanack of Naval Ravikant",
+    "author": "Eric Jorgenson",
+    "image": "/book-covers/book15.jpg",
+    "date": "2020",
+    "tags": [
+      "💼",
+      "🧠",
+      "Philosophy",
+      "Investment"
+    ],
+    "category": "Business & Money",
+    "summary": "Key Takeaways:\n\n1. Life operates like multiplication, not addition - small efforts compound exponentially over time, creating disproportionate returns through network effects and resource access.\n\n2. Focus on building compoundable skills and habits rather than pursuing linear improvements; the difference between 70% and 80% accuracy can result in hundreds of times better outcomes.\n\n3. Read foundational classics first to build a strong knowledge base, as early reading shapes your thinking patterns and creates the 'source code' for your intellectual framework.\n\n4. Reading should be about finding paths through knowledge, not building walls - follow your interests and don't force yourself through difficult books that don't resonate.\n\n5. Intelligence is not innate talent but the accumulation of good habits maintained over time, with 99% of efforts appearing wasted but ultimately contributing to success.\n\nBook Summary:\nThe Almanack of Naval Ravikant compiles the wisdom and insights of Silicon Valley angel investor and entrepreneur Naval Ravikant, presenting his philosophy on wealth, happiness, and life through a collection of his most impactful thoughts and observations. Ravikant argues that life operates through compound effects rather than linear accumulation, where small improvements in decision-making accuracy (like going from 70% to 80% correct) can result in hundreds of times better outcomes. He emphasizes the importance of building compoundable skills and habits, reading foundational classics to establish strong intellectual frameworks, and maintaining consistent good habits over time. The book challenges conventional thinking about success, suggesting that intelligence is not innate talent but the result of sustained good practices. Ravikant's insights span from practical advice on learning and decision-making to philosophical reflections on happiness and purpose, all delivered in his characteristic aphoristic style that has made him a popular source of wisdom in the tech and business communities."
   }
-] 
+]
