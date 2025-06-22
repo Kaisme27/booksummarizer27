@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 // import { Geist, Geist_Mono } from "next/font/google"; // Removed Geist imports
 import "./globals.css";
 import { useState } from 'react';
@@ -33,7 +34,7 @@ export default function RootLayout({
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
             {/* 左侧 Logo */}
             <Link href="/" className="flex items-center space-x-2">
-              <img src="/logo.svg" alt="Summarist.ai Logo" className="h-8" />
+              <Image src="/logo.svg" alt="Summarist.ai Logo" width={32} height={32} className="h-8 w-8" />
               <span className="hidden sm:inline text-2xl font-bold text-gray-800">booksummarizer.online</span>
             </Link>
             {/* 中间导航 */}
