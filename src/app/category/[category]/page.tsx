@@ -31,7 +31,9 @@ export default function CategoryPage() {
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {books.map(book => (
             <div key={book.id} className="bg-white border border-gray-200 rounded-xl shadow flex flex-col">
-              <img src={book.image} alt={book.title} className="w-full h-48 object-cover rounded-t-xl" />
+              <div className="h-64 flex items-center justify-center bg-gray-100 rounded-t-xl">
+                <img src={book.image} alt={book.title} className="max-h-full max-w-full object-contain p-2" />
+              </div>
               <div className="p-4 flex flex-col flex-grow">
                 <h3 className="text-lg font-bold text-gray-900 mb-1 leading-tight">{book.title}</h3>
                 <p className="text-gray-600 text-sm mb-1">by {book.author}</p>
