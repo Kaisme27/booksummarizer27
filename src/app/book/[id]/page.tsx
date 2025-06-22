@@ -25,39 +25,12 @@ export default function BookDetail() {
   const [showSummary, setShowSummary] = useState(true);
   const [isFavorite, setIsFavorite] = useState(false);
 
-  console.log('booksData', booksData);
-  console.log('params', params);
-  console.log('id', id);
-  console.log('book', book);
-
   React.useEffect(() => {
     if (!book) return;
+    // Check for favorites in localStorage only on client side
     const favs = JSON.parse(localStorage.getItem('favorites') || '[]');
     setIsFavorite(favs.includes(book.id));
   }, [book?.id]);
-
-  const handleGetSummary = () => {
-    setLoading(true);
-    setProgress(0);
-    const start = Date.now();
-    const duration = 1500;
-    function animate() {
-      const elapsed = Date.now() - start;
-      const percent = Math.min(100, (elapsed / duration) * 100);
-      setProgress(percent);
-      if (percent < 100) {
-        progressRef.current = setTimeout(animate, 16);
-      }
-    }
-    animate();
-    setTimeout(() => {
-      setLoading(false);
-      setProgress(100);
-      if (!book) {
-        router.push('/?noMatch=1');
-      }
-    }, duration);
-  };
 
   const handleAddFavorite = () => {
     if (!book) return;
@@ -70,8 +43,8 @@ export default function BookDetail() {
   };
 
   if (!book) {
-    // 这里可以返回 null 或 loading 动画
-    return null;
+    // This can be a loading spinner or a not-found component
+    return <div>Book not found.</div>;
   }
 
   return (
@@ -106,18 +79,32 @@ export default function BookDetail() {
             </div>
           ) : (
             <>
-              <strong className="block mb-2 text-gray-700">AI Summary:</strong>
-              {book.summary
-                ? book.summary.split(/\n+/).map((para, idx) => (
-                    <p key={idx} className="text-gray-800 mb-2">{para}</p>
-                  ))
-                : <p className="text-gray-800">No summary available.</p>}
-              <button
-                onClick={handleGetSummary}
-                className="mt-4 bg-teal-600 hover:bg-teal-700 text-white font-semibold px-8 py-3 rounded-lg text-lg transition"
-              >
-                Get Summary
-              </button>
+              {(() => {
+                const summaryText = book.summary || '';
+                const takeawaysMatch = summaryText.match(/Key Takeaways:([\s\S]*?)Book Summary:/);
+                const bookSummaryMatch = summaryText.match(/Book Summary:([\s\S]*)/);
+
+                const takeawaysContent = takeawaysMatch ? takeawaysMatch[1].trim() : '';
+                const bookSummaryContent = bookSummaryMatch ? bookSummaryMatch[1].trim() : '';
+
+                const takeawaysList = takeawaysContent.split(/\n+/).filter(line => line.match(/^\d+\./));
+
+                return (
+                  <div>
+                    <strong className="block mb-2 text-gray-700 font-bold">Key Takeaways:</strong>
+                    <ul className="list-none pl-0 mb-6">
+                      {takeawaysList.map((item, index) => (
+                        <li key={index} className="text-gray-800 mb-2 flex items-start">
+                          <span className="mr-2 font-semibold">{item.match(/^\d+\./)?.[0]}</span>
+                          <span>{item.replace(/^\d+\.\s*/, '')}</span>
+                        </li>
+                      ))}
+                    </ul>
+                    <strong className="block mb-2 text-gray-700 font-bold">Book Summary:</strong>
+                    <p className="text-gray-800">{bookSummaryContent}</p>
+                  </div>
+                );
+              })()}
             </>
           )}
         </div>
