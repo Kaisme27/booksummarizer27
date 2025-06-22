@@ -100,8 +100,8 @@ export default function HomePage() {
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6">
           {books.map((book: Book) => (
-            <Link href={`/book/${book.id}`} key={book.id}>
-              <div className="bg-white/70 border border-gray-200 rounded-xl shadow flex flex-col backdrop-blur-sm h-full transform transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl cursor-pointer">
+            <div key={book.id} className="bg-white/70 border border-gray-200 rounded-xl shadow flex flex-col backdrop-blur-sm h-full transform transition-transform duration-300 hover:-translate-y-1 hover:shadow-xl">
+              <Link href={`/book/${book.id}`} className="flex flex-col flex-grow">
                 <div className="w-full h-48 flex items-center justify-center bg-gray-100 rounded-t-xl">
                   <Image src={book.image} alt={book.title} width={150} height={192} className="max-w-full max-h-full object-contain" />
                 </div>
@@ -111,16 +111,19 @@ export default function HomePage() {
                   <div className="flex items-center text-xs text-gray-500 mb-1">
                     <span className="bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full">{book.date}</span>
                   </div>
-                  <div className="mt-auto pt-2">
-                    <div className="flex flex-wrap gap-1">
-                      {book.tags.map((tag, index) => (
-                        <span key={index} className="bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs">{tag}</span>
-                      ))}
+                  <div className="flex flex-wrap gap-1 mt-1">
+                    {book.tags.map((tag, index) => (
+                      <span key={index} className="bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full text-xs">{tag}</span>
+                    ))}
+                  </div>
+                  <div className="mt-auto pt-3">
+                    <div className="bg-teal-600 hover:bg-teal-700 text-white font-semibold px-4 py-2 rounded-lg text-center transition w-full text-sm">
+                      Get Summary
                     </div>
                   </div>
                 </div>
-              </div>
-            </Link>
+              </Link>
+            </div>
           ))}
         </div>
       </div>
